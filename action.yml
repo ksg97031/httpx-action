@@ -41,7 +41,7 @@ runs:
 
     - run: |
         httpx \
-          -list ${{ inputs.list }} \
+          -l ${{ inputs.list }} \
           -o ${{ inputs.output }} \
           ${{ env.json }} \
           ${{ env.random-ua }} \
